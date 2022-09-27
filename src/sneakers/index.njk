@@ -1,0 +1,11 @@
+---
+title: Alla sneakers
+---
+
+<ul>
+{% for sneaker in collections.sneakers %}
+    <li>
+        <a href="{{ sneaker.data.page.url }}">{{ sneaker.data.page.fileSlug }}</a>
+    </li>
+{% endfor %}
+</ul>

@@ -1,0 +1,4 @@
+{
+    "tags": ["sneakers"],
+    "layout": "sneakers.njk"
+}
